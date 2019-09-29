@@ -43,11 +43,11 @@ int conv;
 
 char wifi_ssid[]       = "LoRa";
 char wifi_password[]   = "12345678ss";
-char aws_endpoint[]    = "adaexyrkpjo5d-ats.iot.ap-southeast-1.amazonaws.com";
-char aws_key[]         = "AKIA5N6LFCOKBONG3QU2";
-char aws_secret[]      = "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";
+char aws_endpoint[]    = "";
+char aws_key[]         = "";
+char aws_secret[]      = "";
 char aws_region[]      = "ap-southeast-1";
-const char* aws_topic  = "$aws/things/IOTSEPT/shadow/update";
+const char* aws_topic  = "";
 int port = 443;
 
 
