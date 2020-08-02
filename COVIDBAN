@@ -1,0 +1,12 @@
+//AWS EXAMPLE 2
+var d = new Date();
+
+msg.payload={
+	"DeviveID":d,
+	"x":200,
+	"y":-150,
+	"z":520
+}
+
+msg.payload = JSON.stringify(msg.payload);
+return msg;
